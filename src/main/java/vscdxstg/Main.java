@@ -49,8 +49,10 @@ public final class Main {
                 Assets assets = new Assets();
                 Game game = new Game(table, seedF, forcedF);
                 GamePanel panel = new GamePanel(game, new Renderer(assets));
-                
+                /* =============== Title ======================*/
+                // TODO: タイトル画面を作る
                 JFrame frame = new JFrame("時雨STG");
+                // ==============================================
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frame.setResizable(false);
                 frame.add(panel);
